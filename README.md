@@ -13,7 +13,7 @@ The application allows users to select a movie from a dropdown list, and upon cl
 * **Pickle:** For serializing and deserializing Python objects (movie list and similarity matrix).
 * **Requests:** For making HTTP requests to the TMDB API.
 
-##Obtain a TMDB API key:
+## Obtain a TMDB API key:
 
 Create an account at https://www.themoviedb.org/.
 Go to your account settings and request an API key.
@@ -23,13 +23,13 @@ In the project root directory, create a file named Key.py.
 Inside Key.py, add the following line, replacing YOUR_API_KEY with your actual TMDB API key:
 <!-- end list -->
 
-##Python
+## Python
 
 def getKey():
     return "YOUR_API_KEY"
 used for getting the API key that can we get using website
 
-##Run the Streamlit app
+## Run the Streamlit app
 
 **streamlit run app.py**
 
